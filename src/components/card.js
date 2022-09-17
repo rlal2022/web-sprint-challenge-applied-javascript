@@ -30,7 +30,7 @@ const Card = (article) => {
   divWrapper.classList.add("card");
   headlineDiv.classList.add("headline");
   authorDiv.classList.add("author");
-  image.classList.add("img-container");
+  imageDiv.classList.add("img-container");
 
   divWrapper.appendChild(headlineDiv);
   divWrapper.appendChild(authorDiv);
